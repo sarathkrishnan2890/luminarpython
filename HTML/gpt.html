@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <style>
+    .name_container {
+        display: flex;
+        gap: 10px;
+      }
+      
+      .box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .box input[type="text"] {
+        height: 30px;
+        width: 150px;
+      }
+      
+      .name {
+        margin-top: 5px;
+      }
+    </style>
+    <div class="name_container">
+        <div class="box">
+          <input type="text" name="first_name" id="first_name">
+          <label class="name">First Name</label>
+        </div>
+        <div class="box">
+          <input type="text" name="middle_name" id="middle_name">
+          <label class="name">Middle Name</label>
+        </div>
+        <div class="box">
+          <input type="text" name="last_name" id="last_name">
+          <label class="name">Last Name</label>
+        </div>
+      </div>
+      
+</body>
+</html>

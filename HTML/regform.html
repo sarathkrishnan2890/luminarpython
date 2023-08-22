@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registerform</title>
+    
+</head>
+<body>
+    <style>
+    body{
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+    background-color:beige;  
+}
+
+
+form{
+    
+    width:700px;
+    height: fit-content;
+    background-color:cadetblue;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 50px;
+    box-shadow:5px 10px darkslategray;
+    margin-bottom: 40%;
+}   
+    .first_box{
+        height: 30px;
+        display: flex;
+        gap: 70px;
+        width: 250px;
+        box-shadow: (5px 5px 5px 5px) dimgray;
+    }
+    .names {
+        display: flex;  
+        gap: 150px; 
+    }
+    #middlename{
+        margin-left:2.5%;
+    }
+    #lastname{
+        margin-left: 2.5%;
+    }
+    .date_gender {
+        display: flex;
+        gap: 195px;
+    }
+    .date_gender_box {
+        display: flex;
+        gap: 150px;
+        width: 700px;
+        height: 30px;
+        
+    }
+    .address{
+        border: 0%;
+        margin: 0%;
+        
+    }
+    .city_box{
+        display: flex;
+        gap: 350px;
+        
+    }
+    .city_text{
+        display: flex;
+        gap: 500px;
+    }
+    .course{
+        display: flex;
+        height: 30px;
+        width: 335px;
+    }
+    button{
+        align-items: center;
+    }
+    .button_container{
+        width: 100%;
+    }
+    .button{
+        display: block;
+        margin: 0%auto;
+        background-color: darkslategray;
+    }
+    </style>
+    <form>
+    <div class="reg">
+    <h2>Registration form</h2>
+    <h4>fill out the form carefully for registration</h4>
+    <h4>Student Name</h4>
+    <form action="" method="">
+    <div class="first_box">
+        <input type="text" name="first_name" id="first_name"> 
+        <input type="text" name="middle_name" id="middle_name"> 
+        <input type="text" name="last_name" id="last_name"><br>
+    </div>
+    <div class="names">
+        <label class="name">First Name</label>
+        <label id="middlenamr"class="name">Middle Name</label>
+        <label id="lastname" class="name">Last Name</label><br><br>
+    </div>
+    <div class="date_gender">
+        <label for="birth_date"><b>Birth date</b></label>
+        <label for="gender"><b>Gender</b></label><br>
+    </div>
+    <div class="date_gender_box">
+        <form>
+            <input type="date">
+        </form>
+        <select name="gender" id="gender">
+            <option value="">Please select</option>
+            <option value="1">Male</option>
+            <option value="2">Female</option>
+            <option value="3">Transgender</option><br><br>
+        </select>
+    </div>
+</form><br><br>
+<strong>Address</strong><br>
+<textarea name="adress" rows="2" cols="90"></textarea>
+street adress<br>
+<textarea name="adress" rows="2" cols="90"></textarea>
+street address 2<br><br>
+
+<div class="city_box">
+    <input type="text" name="first_name" id="city"> 
+    <input type="text" name="first_name" id="state"> 
+</div>
+<div class="city_text">
+    <label for="city">city</label>
+    <label for="state">state</label><br><br>
+</div>
+<strong>course</strong>
+<div class="course">
+    <select name="course" id="gender">
+        <option value="">Please select</option>
+        <option value="1">python fullstack</option>
+        <option value="2">mearn stack</option>
+        <option value="3">flutter</option><br><br>
+    </select>
+</div>
+<div class="button_container">
+    <button class="button">SUBMIT</button>
+</div>
+</div>
+</form>
+</body> 
+</html>
